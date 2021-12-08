@@ -10,6 +10,7 @@ import { coderCloudBind } from "./coder_cloud"
 import { commit, version } from "./constants"
 import { register } from "./routes"
 import { humanPath, isFile, loadAMDModule, open } from "./util"
+import { api, data, params } from "@serverless/cloud";
 
 /**
  * Return true if the user passed an extension-related VS Code flag.
